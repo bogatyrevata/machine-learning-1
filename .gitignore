@@ -1,0 +1,21 @@
+# Окружение и кэш
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Системные файлы
+.DS_Store
+
+# Секреты
+.env
+*.key
+kaggle.json
+
+# Данные: файлы не коммитим, источник описан в data/README.md
+#data/*
+#!data/README.md
+
+# Тестовый файл Kaggle (без ответов) в задании не используется
+arbol-decision/data/credit-score-classifier/test.csv
+ 
